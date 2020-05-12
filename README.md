@@ -28,12 +28,14 @@ kubectl get nodes -o wide
 ```
 
 # nano 00-namespace.yaml
-# kubectl apply -f 00-namespace.yaml
+```
+kubectl apply -f 00-namespace.yaml
+```
 ```
 kind: Namespace
 apiVersion: v1
 metadata:
-  name:testing
+  name: testing
 ```
 ```
 kubectl get ns
