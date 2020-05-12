@@ -10,6 +10,12 @@ Donde van a correr esos contenedores, son descartables.
 # Servidores etcd
 Donde se guardan los datos
 
+# namespaces
+sub-cluster, ejemplo para crear dentro de un mismo cluster dos entornos
+
+# pods
+Conjunto de contenedores.
+
 # Copiamos el archiov de conexion yaml
 ```
 mv k8s-1-17-5-do-0-sfo2-1589321851845-kubeconfig.yaml /home/marlon/.kube/config
